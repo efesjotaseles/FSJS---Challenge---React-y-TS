@@ -1,0 +1,13 @@
+.product{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: darkorchid;
+    color: whitesmoke;
+}
+
+.product-list{
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}

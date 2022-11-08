@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Buzo",
+    "price": "250",
+    "description": "Un buzito re piola."
+  },
+  {
+    "name": "Campera",
+    "price": "407",
+    "description": "Camperita pal fresco."
+  },
+  {
+    "name": "Ojotas",
+    "price": "379",
+    "description": "Ojo con estas ojotas."
+  }
+]
