@@ -7,16 +7,19 @@ import './style.css'
 
 const productArray = [
     {
+      id: 0,
       name: "Buzo",
       price: "250",
       description: "Un buzito re piola."
     },
     {
+      id: 1,
       name: "Campera",
       price: "407",
       description: "Camperita pal fresco."
     },
     {
+      id: 2,
       name: "Ojotas",
       price: "379",
       description: "Ojo con estas ojotas."
@@ -34,7 +37,7 @@ export default function ProductList() {
     <>
     <div className='product-list'>
     {productArray.map((product) =>{
-        return <Product name={product.name} price={product.price} description={product.description} />        
+        return <Product key={product.id} name={product.name} price={product.price} description={product.description} />        
     })}
     </div>
     <ProductSummaryButton />
